@@ -44,6 +44,7 @@
 1. fare una ricerca nella cartella del progetto di **App\User** e sostituirlo con **App\Models\User** (non modificare però i file che si trovano nella cartella vendor)
 1. Spostare e rinominare il file **app/Http/Controllers/HomeController.php** in **app/Http/Controllers/Admin/AdminController.php**
 1. Nel file appena spostato:
+    - rinominare anche il nome della classe in **class AdminController extends Controller**
     - modificare il namespace a **namespace App\Http\Controllers\Admin;**
     - aggiungere la riga di codice (se non c'è già) **use App\Http\Controllers\Controller;**
 1. fare una ricerca nella cartella del progetto di **App\Http\Controllers\HomeController** e sostituirlo con **App\Http\Controllers\Admin\AdminController** (non modificare però i file che si trovano nella cartella vendor)
